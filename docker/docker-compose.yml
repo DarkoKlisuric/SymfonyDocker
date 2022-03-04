@@ -8,8 +8,8 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: secret
       MYSQL_DATABASE: app
-      MYSQL_USER: dklisuric
-      MYSQL_PASSWORD: dklisuric
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
     ports:
       - '4306:3306'
     volumes:
